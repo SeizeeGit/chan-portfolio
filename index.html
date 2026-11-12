@@ -3,14 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Christian Deane — IT & Web Developer</title>
+  <title>Christian Deane — IT &amp; Web Developer</title>
   <meta name="description" content="Christian Deane, IT graduate. Builds internal web apps and the network infrastructure they run on.">
-  <meta property="og:title" content="Christian Deane — IT & Web Developer">
+  <meta name="author" content="Christian Deane">
+  <meta property="og:title" content="Christian Deane — IT &amp; Web Developer">
   <meta property="og:description" content="Christian Deane, IT graduate. Builds internal web apps and the network infrastructure they run on.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=IBM+Plex+Sans:wght@400&amp;family=IBM+Plex+Mono&amp;display=swap">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,7 +23,7 @@
   <!-- ============ HEADER ============ -->
   <header class="site-header">
     <a href="#" class="site-header__brand">Christian Deane</a>
-    <nav class="site-header__nav">
+    <nav class="site-header__nav" aria-label="Primary">
       <a href="#work">Work</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
@@ -29,6 +34,7 @@
 
     <!-- ============ HERO ============ -->
     <div class="hero">
+      <p class="hero__intro"><span class="hero__name">Christian Deane</span> — IT &amp; Web Developer</p>
       <p class="hero__status"><span class="hero__dot"></span>Open to freelance work</p>
       <h1 class="hero__title">I build the software a school runs on, and keep its <em>network</em> standing.</h1>
       <dl class="hero__meta">
@@ -51,7 +57,7 @@
           <span class="project__num">01</span>
           <span class="project__title">Genius Room Management</span>
           <span class="project__stack">Supabase · Netlify</span>
-          <span class="project__toggle">+</span>
+          <span class="project__toggle" aria-hidden="true">+</span>
         </summary>
         <div class="project__body">
           <!-- Optional photo: <img src="img/rms.webp" alt="Genius Room Management dashboard" loading="lazy"> -->
@@ -65,7 +71,7 @@
           <span class="project__num">02</span>
           <span class="project__title">Genius IELTS</span>
           <span class="project__stack">Web app</span>
-          <span class="project__toggle">+</span>
+          <span class="project__toggle" aria-hidden="true">+</span>
         </summary>
         <div class="project__body">
           <p>Mock IELTS tests with automatic scoring, so teachers no longer mark listening and reading by hand.</p>
@@ -77,7 +83,7 @@
           <span class="project__num">03</span>
           <span class="project__title">Two-site dual-ISP network</span>
           <span class="project__stack">MikroTik</span>
-          <span class="project__toggle">+</span>
+          <span class="project__toggle" aria-hidden="true">+</span>
         </summary>
         <div class="project__body">
           <p>Load balancing and failover across two ISPs at two campuses, so one provider's outage no longer takes classes offline.</p>
@@ -89,7 +95,7 @@
           <span class="project__num">04</span>
           <span class="project__title">The Sidlakanan</span>
           <span class="project__stack">Website</span>
-          <span class="project__toggle">+</span>
+          <span class="project__toggle" aria-hidden="true">+</span>
         </summary>
         <div class="project__body">
           <p>Website for a student publication.</p>
@@ -105,7 +111,7 @@
       <div class="cols">
         <div>
           <p class="lead">I work where IT meets software: the router in the closet and the app on the front desk are usually the same problem.</p>
-          <!-- Optional portrait: <img class="about__portrait" src="img/me.webp" alt="Christian"> -->
+          <img class="about__portrait" src="img/me.webp" alt="Christian Deane" width="1200" height="1800" loading="lazy">
         </div>
         <div class="about__body">
           <p>I'm an IT graduate. I build internal web apps for the teams that use them, and I set up and keep running the network infrastructure underneath.</p>

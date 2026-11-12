@@ -53,6 +53,7 @@ img { display: block; max-width: 100%; height: auto; }
    ========================================================== */
 /* Small uppercase label style used across the site */
 .site-header__nav,
+.hero__intro,
 .hero__status,
 .hero__meta,
 .section__aside,
@@ -92,6 +93,8 @@ img { display: block; max-width: 100%; height: auto; }
 
 /* --- Hero --- */
 .hero { padding: clamp(64px, 12vw, 140px) 0 72px; }
+.hero__intro { margin-bottom: 14px; color: var(--mute); }
+.hero__name { color: var(--fg); }
 .hero__status { margin-bottom: 28px; color: var(--mute); }
 .hero__dot { display: inline-block; width: 8px; height: 8px; margin-right: 8px; background: var(--red); border-radius: 50%; animation: pulse 2.4s ease-in-out infinite; }
 .hero__title { max-width: 14ch; font: 400 clamp(44px, 7.5vw, 104px)/.98 var(--font-serif); letter-spacing: -.02em; }
@@ -129,7 +132,7 @@ img { display: block; max-width: 100%; height: auto; }
 
 /* --- About --- */
 .about__body p + p { margin-top: 16px; }
-.about__portrait { width: 180px; margin-top: 32px; filter: grayscale(1); }
+.about__portrait { width: 180px; margin-top: 32px; }
 .skills { display: grid; grid-template-columns: 9rem 1fr; row-gap: 12px; margin-top: 40px; }
 .skills dt { color: var(--mute); }
 
